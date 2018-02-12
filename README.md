@@ -9,6 +9,7 @@ Maker Media GmbH und c't, Heise Zeitschriften Verlag
 
 ### Mini-GM-Synthesizer mit Karaoke-IC
 
-![Picture](https://github.com/heise/MaXYposi/blob/master/maxyposi.JPG)
+![Picture](https://github.com/heise/NanoSynth/blob/master/aufm_breit.JPG)
 
-Projekt für einen sehr leicht nachzubauenden Portalroboter, der je nach Werkzeug zum Bohren, Fräsen, Bestücken, Lasern oder Folienschneiden geeignet ist. Es verwendet Kunststoff-Gleitlager der Fa. **[igus](http://www.igus.de)**. Bitte beachten Sie unbedingt 
+Schier unglaublich, was hochintegrierte ICs heute können: Der SAM2695 von **[DREAM](http://www.dream.fr)** ist ein mehrstimmiger Wavetable-Synthesizer mit Effekteingang und MIDI-Steuerung auf 5 x 5 Quadratmillimetern. Unser NanoSynth-Board macht den Winzling Breadboard-tauglich.
+
