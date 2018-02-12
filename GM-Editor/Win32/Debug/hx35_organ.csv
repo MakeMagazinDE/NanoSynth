@@ -1,0 +1,580 @@
+578
+5
+#,"Description",Value,Type,Max
+#,"Percussion Defaults",,,
+1224,"Perc Norm Lvl",112,Scroll,255
+1225,"Perc Soft Lvl",86,Scroll,255
+1226,"Perc Long Time",102,Scroll,255
+1227,"Perc Short Time",73,Scroll,255
+1228,"Perc Muted Lvl (B3)",102,Scroll,255
+#,"Vibrato/Chorus Defaults",,,
+1064,"AM/Cap Age",120,Scroll,255
+1065,"Vib/Ch Amp PreEmphasis",140,Scroll,255
+1066,"Vib/Ch LC Line Reflection",120,Scroll,255
+1067,"Vib/Ch LC Line Response",90,Scroll,255
+1068,"Chorus Scanner Level",110,Scroll,255
+1069,"Chorus Bypass Level",180,Scroll,255
+1070,"Scanner Gearing",65,Scroll,255
+1071,"Scanner High Leakage",20,Scroll,255
+1072,"Vib1 Modulation",60,Scroll,255
+1073,"Ch1 Modulation",65,Scroll,255
+1074,"Vib2 Modulation",100,Scroll,255
+1075,"Ch2 Modulation",120,Scroll,255
+1076,"Vib3 Modulation",180,Scroll,255
+1077,"Ch3 Modulation",188,Scroll,255
+#,"Volume Defaults",,,
+1080,"Master Output Volume",125,Scroll,125
+1081,"Leslie Volume",64,Scroll,125
+1082,"Upper Volume",125,Scroll,125
+1083,"Lower Volume",125,Scroll,125
+1084,"Pedal Volume",125,Scroll,125
+1085,"2ndVoice/Perc Volume",125,Scroll,125
+1086,"(not used)",125,Scroll,125
+1087,"AO28 Tone Adjust",40,Scroll,100
+1088,"AO28 TrimSwell",50,Scroll,100
+1089,"AO28 MinimalSwell",7,Scroll,100
+1090,"AO28 Triode_k2",20,Scroll,50
+1091,"Ext. Effects Output Volume",125,Scroll,125
+1092,"Ext. Reverb Output Volume",125,Scroll,125
+#,"Organ Defaults",,,
+1101,"Cancel DB1 @ Perc ON",255,Button,1
+1102,"DB16 Foldback Mode",0,Scroll,3
+1103,"High Foldback On",255,Button,1
+1104,"ContSpring Flex",5,Scroll,15
+1105,"ContSpring Damping",9,Scroll,15
+1106,"Active Mixture Set",0,Scroll,3
+1107,"Active BusBar Set",0,Scroll,3
+#,"MIDI Defaults",,,
+1112,"MIDI Base Channel",0,Scroll,15
+1113,"MIDI Route Option",0,Scroll,3
+1114,"MIDI CC Set",0,Scroll,7
+1115,"MIDI Swell CC used",11,Scroll,127
+1116,"MIDI Volume CC used",7,Scroll,127
+1128,"Overall Organ Type",0,Scroll,7
+1129,"Active Organ Tuning Set",0,Scroll,5
+1130,"TG Size",91,Scroll,96
+1131,"TG Fixed Taper Value",40,Scroll,127
+1132,"TG WaveSet used",0,Scroll,7
+1133,"TG Flutter",3,Scroll,15
+1134,"TG Leakage",2,Scroll,7
+1135,"TG CapSet/Tapering",1,Scroll,7
+1136,"TG Motor Hz Adjust (Tuning)",7,Scroll,15
+#,"Effect Defaults",,,
+1144,"Reverb Level_1",100,Scroll,255
+1145,"Reverb Level_2",140,Scroll,255
+1146,"Reverb Level_3",140,Scroll,255
+1147,"Reverb Prg",1,None,3
+1152,"Phasing SlowTm",12,Scroll,255
+1153,"Phasing FastTm",140,Scroll,255
+1154,"Phasing Program active",0,Scroll,255
+1155,"Insert Phasing Upper",0,Button,1
+1156,"Insert Phasing Lower",0,Button,1
+1158,"Insert TubeAmp ",255,Button,1
+1159,"Insert Rotary Simulation",255,Button,1
+#,"Keyboard Defaults",0,,
+1096,"Keyboard Split On",0,Button,1
+1097,"Split Point",24,Scroll,255
+1098,"Split Mode",0,Scroll,255
+1099,"Transpose",0,Scroll,255
+#,"Rotary User Defaults",,None,
+1192,"Horn Slow Timer",17,Scroll,255
+1193,"Rotor Slow Timer",15,Scroll,255
+1194,"Horn Fast Timer",140,Scroll,255
+1195,"Rotor Fast Timer",134,Scroll,255
+1196,"Horn RampUp Time",2,Scroll,255
+1197,"Rotor RampUp Time",20,Scroll,255
+1198,"Horn RampDown Time",1,Scroll,255
+1199,"Rotor RampDown Time",30,Scroll,255
+1200,"Rotary Throb",175,Scroll,255
+1201,"Rotary Spread",50,Scroll,255
+1202,"Rotary Balance",100,Scroll,255
+#,"Upper ADSR Defaults",,,
+1208,"Attack",0,Scroll,255
+1209,"Decay",0,Scroll,255
+1210,"Sustain",250,Scroll,255
+1211,"Release",0,Scroll,255
+1216,"ADSR on Busbar Enables 1",0,Bits,255
+1217,"ADSR on Busbar Enables 2",0,Bits,255
+1220,"ADSR Harmonic Content",128,Scroll,255
+#,"Lower ADSR Defaults",,,
+1212,"Attack",0,Scroll,255
+1213,"Decay",0,Scroll,255
+1214,"Sustain",250,Scroll,255
+1215,"Release",0,Scroll,255
+1218,"ADSR on Busbar Enables 1",0,Bits,255
+1219,"ADSR on Busbar Enables 2",0,Bits,255
+1221,"ADSR Harmonic Content",128,Scroll,255
+#,"Pedal ADSR Defaults",,,
+1232,"Attack",0,Scroll,255
+1233,"Decay",30,Scroll,255
+1234,"Sustain",120,Scroll,255
+1235,"Release",20,Scroll,255
+1236,"ADSR Harmonic Content",75,Scroll,255
+#,"Busbar Level Defaults",,,
+1048,"Level Busbar 0 (16')",240,Scroll,255
+1049,"Level Busbar 1",255,Scroll,255
+1050,"Level Busbar 2",255,Scroll,255
+1051,"Level Busbar 3",255,Scroll,255
+1052,"Level Busbar 4",255,Scroll,255
+1053,"Level Busbar 5",255,Scroll,255
+1054,"Level Busbar 6",255,Scroll,255
+1055,"Level Busbar 7",255,Scroll,255
+1056,"Level Busbar 8",255,Scroll,255
+1057,"Level Busbar 9",255,Scroll,255
+1058,"Level Busbar 10",255,Scroll,255
+1059,"Level Busbar 11",255,Scroll,255
+1060,"Level Busbar 12",255,Scroll,255
+1061,"Level Busbar 13",255,Scroll,255
+1062,"Level Busbar 14",255,Scroll,255
+#,"Phasing Temp Params",,,
+1177,"PHR Speed Vari",14,Scroll,255
+1178,"PHR Speed Slow",10,Scroll,125
+1179,"PHR Feedback",0,Scroll,125
+1180,"PHR Level Ph 1",90,Scroll,125
+1181,"PHR Level Ph 2",90,Scroll,125
+1182,"PHR Level Ph 3",90,Scroll,125
+1183,"PHR Level Dry",120,Scroll,125
+1184,"PHR FeedBack Invert",0,Bits,255
+1185,"PHR (none)",0,Scroll,125
+1186,"PHR Mod Vari Ph 1",40,Scroll,125
+1187,"PHR Mod Vari Ph 2",40,Scroll,125
+1188,"PHR Mod Vari Ph 3",40,Scroll,125
+1189,"PHR Mod Slow Ph 1",13,Scroll,125
+#BEZUG!
+#BEZUG!
+#,"All Off EEPROM Inits",,,
+1501,"PHR Speed Vari",14,Scroll,255
+1502,"PHR Speed Slow",10,Scroll,125
+1503,"PHR Feedback",0,Scroll,125
+1504,"PHR Level Ph 1",90,Scroll,125
+1505,"PHR Level Ph 2",90,Scroll,125
+1506,"PHR Level Ph 3",90,Scroll,125
+1507,"PHR Level Dry",120,Scroll,125
+1508,"PHR FeedBack Invert",0,Bits,255
+1509,"PHR (none)",0,Scroll,125
+1510,"PHR Mod Vari Ph 1",40,Scroll,125
+1511,"PHR Mod Vari Ph 2",40,Scroll,125
+1512,"PHR Mod Vari Ph 3",40,Scroll,125
+1513,"PHR Mod Slow Ph 1",13,Scroll,125
+1514,"PHR Mod Slow Ph 2",0,Scroll,125
+1515,"PHR Mod Slow Ph 3",0,Scroll,125
+#,"Rotor Slow EEPROM Inits",,,
+1517,"PHR Speed Vari",16,Scroll,255
+1518,"PHR Speed Slow",10,Scroll,125
+1519,"PHR Feedback",70,Scroll,125
+1520,"PHR Level Ph 1",120,Scroll,125
+1521,"PHR Level Ph 2",120,Scroll,125
+1522,"PHR Level Ph 3",120,Scroll,125
+1523,"PHR Level Dry",60,Scroll,125
+1524,"PHR FeedBack Invert",2,Bits,255
+1525,"PHR (none)",0,Scroll,125
+1526,"PHR Mod Vari Ph 1",55,Scroll,125
+1527,"PHR Mod Vari Ph 2",61,Scroll,125
+1528,"PHR Mod Vari Ph 3",38,Scroll,125
+1529,"PHR Mod Slow Ph 1",0,Scroll,125
+1530,"PHR Mod Slow Ph 2",0,Scroll,125
+1531,"PHR Mod Slow Ph 3",0,Scroll,125
+#,"Rotor Fast EEPROM Inits",,,
+1533,"PHR Speed Vari",130,Scroll,255
+1534,"PHR Speed Slow",10,Scroll,125
+1535,"PHR Feedback",70,Scroll,125
+1536,"PHR Level Ph 1",120,Scroll,125
+1537,"PHR Level Ph 2",120,Scroll,125
+1538,"PHR Level Ph 3",120,Scroll,125
+1539,"PHR Level Dry",30,Scroll,125
+1540,"PHR FeedBack Invert",9,Bits,255
+1541,"PHR (none)",0,Scroll,125
+1542,"PHR Mod Vari Ph 1",64,Scroll,125
+1543,"PHR Mod Vari Ph 2",57,Scroll,125
+1544,"PHR Mod Vari Ph 3",67,Scroll,125
+1545,"PHR Mod Slow Ph 1",0,Scroll,125
+1546,"PHR Mod Slow Ph 2",0,Scroll,125
+1547,"PHR Mod Slow Ph 3",0,Scroll,125
+#,"Ensemble EEPROM Inits",,,
+1549,"PHR Speed Vari",14,Scroll,255
+1550,"PHR Speed Slow",10,Scroll,125
+1551,"PHR Feedback",121,Scroll,125
+1552,"PHR Level Ph 1",169,Scroll,125
+1553,"PHR Level Ph 2",166,Scroll,125
+1554,"PHR Level Ph 3",166,Scroll,125
+1555,"PHR Level Dry",89,Scroll,125
+1556,"PHR FeedBack Invert",9,Bits,255
+1557,"PHR (none)",0,Scroll,125
+1558,"PHR Mod Vari Ph 1",64,Scroll,125
+1559,"PHR Mod Vari Ph 2",57,Scroll,125
+1560,"PHR Mod Vari Ph 3",67,Scroll,125
+1561,"PHR Mod Slow Ph 1",0,Scroll,125
+1562,"PHR Mod Slow Ph 2",0,Scroll,125
+1563,"PHR Mod Slow Ph 3",0,Scroll,125
+#,"Celeste EEPROM Inits",,,
+1565,"PHR Speed Vari",,Scroll,255
+1566,"PHR Speed Slow",,Scroll,125
+1567,"PHR Feedback",,Scroll,125
+1568,"PHR Level Ph 1",,Scroll,125
+1569,"PHR Level Ph 2",,Scroll,125
+1570,"PHR Level Ph 3",,Scroll,125
+1571,"PHR Level Dry",,Scroll,125
+1572,"PHR FeedBack Invert",,Bits,255
+1573,"PHR (none)",,Scroll,125
+1574,"PHR Mod Vari Ph 1",,Scroll,125
+1575,"PHR Mod Vari Ph 2",,Scroll,125
+1576,"PHR Mod Vari Ph 3",,Scroll,125
+1577,"PHR Mod Slow Ph 1",,Scroll,125
+1578,"PHR Mod Slow Ph 2",,Scroll,125
+1579,"PHR Mod Slow Ph 3",,Scroll,125
+#,"Fading EEPROM Inits",,,
+1581,"PHR Speed Vari",,Scroll,255
+1582,"PHR Speed Slow",,Scroll,125
+1583,"PHR Feedback",,Scroll,125
+1584,"PHR Level Ph 1",,Scroll,125
+1585,"PHR Level Ph 2",,Scroll,125
+1586,"PHR Level Ph 3",,Scroll,125
+1587,"PHR Level Dry",,Scroll,125
+1588,"PHR FeedBack Invert",,Bits,255
+1589,"PHR (none)",,Scroll,125
+1590,"PHR Mod Vari Ph 1",,Scroll,125
+1591,"PHR Mod Vari Ph 2",,Scroll,125
+1592,"PHR Mod Vari Ph 3",,Scroll,125
+1593,"PHR Mod Slow Ph 1",,Scroll,125
+1594,"PHR Mod Slow Ph 2",,Scroll,125
+1595,"PHR Mod Slow Ph 3",,Scroll,125
+#,"Vibrato 1 EEPROM Inits",,,
+1597,"PHR Speed Vari",,Scroll,255
+1598,"PHR Speed Slow",,Scroll,125
+1599,"PHR Feedback",,Scroll,125
+1600,"PHR Level Ph 1",,Scroll,125
+1601,"PHR Level Ph 2",,Scroll,125
+1602,"PHR Level Ph 3",,Scroll,125
+1603,"PHR Level Dry",,Scroll,125
+1604,"PHR FeedBack Invert",,Bits,255
+1605,"PHR (none)",,Scroll,125
+1606,"PHR Mod Vari Ph 1",,Scroll,125
+1607,"PHR Mod Vari Ph 2",,Scroll,125
+1608,"PHR Mod Vari Ph 3",,Scroll,125
+1609,"PHR Mod Slow Ph 1",,Scroll,125
+1610,"PHR Mod Slow Ph 2",,Scroll,125
+1611,"PHR Mod Slow Ph 3",,Scroll,125
+#,"Vibrato 2 EEPROM Inits",,,
+1613,"PHR Speed Vari",,Scroll,255
+1614,"PHR Speed Slow",,Scroll,125
+1615,"PHR Feedback",,Scroll,125
+1616,"PHR Level Ph 1",,Scroll,125
+1617,"PHR Level Ph 2",,Scroll,125
+1618,"PHR Level Ph 3",,Scroll,125
+1619,"PHR Level Dry",,Scroll,125
+1620,"PHR FeedBack Invert",,Bits,255
+1621,"PHR (none)",,Scroll,125
+1622,"PHR Mod Vari Ph 1",,Scroll,125
+1623,"PHR Mod Vari Ph 2",,Scroll,125
+1624,"PHR Mod Vari Ph 3",,Scroll,125
+1625,"PHR Mod Slow Ph 1",,Scroll,125
+1626,"PHR Mod Slow Ph 2",,Scroll,125
+1627,"PHR Mod Slow Ph 3",,Scroll,125
+#,"Rotary EEPROM Inits",,,
+1404,"Level Tap Main",180,Scroll,255
+1405,"Level Tap Near Cab 4x",160,Scroll,255
+1406,"Level Tap Far",230,Scroll,255
+1407,"Level Input",180,Scroll,255
+1408,"Level Rotor",180,Scroll,255
+1409,"Throb Frequ Rotor",30,Scroll,125
+1410,"Crossover Frequ",52,Scroll,125
+1411,"Initial Room Dly Cab Near",105,Scroll,255
+1412,"Initial Room Dly Far",230,Scroll,255
+1413,"LFO Mod Horn Main L",230,Scroll,255
+1414,"LFO Mod Horn Main R",230,Scroll,255
+1415,"LFO Mod Horn Cab fx4",165,Scroll,255
+1416,"LFO Mod Horn Refl L Near",210,Scroll,255
+1417,"LFO Mod Horn Refl R Near",215,Scroll,255
+1418,"LFO Mod Horn Refl L Far",220,Scroll,255
+1419,"LFO Mod Horn Refl R Far",220,Scroll,255
+1420,"LFO Mod Rotor Main",220,Scroll,255
+1421,"LFO Mod Rotor Refl",220,Scroll,255
+1422,"LFO Mod Rotor Throb",180,Scroll,255
+1423,"LFO PhaseOfs Horn Main",85,Scroll,255
+1424,"LFO PhaseOfs Horn Cab fx4",175,Scroll,255
+1425,"LFO PhaseOfs Horn Refl Near",35,Scroll,255
+1426,"LFO PhaseOfs Horn Refl Far",150,Scroll,255
+1427,"LFO PhaseOfs Horn Throb",100,Scroll,255
+1428,"LFO PhaseOfs Rotor Main",0,Scroll,255
+1429,"LFO PhaseOfs Rotor Refl",90,Scroll,255
+1430,"LFO PhaseOfs Rotor Throb",45,Scroll,255
+1431,"LFO PhaseOfs Rotor Refl,",90,Scroll,255
+1432,"LFO PhaseOfs Rotor Throb,",45,Scroll,255
+#,"Organ EEPROM Inits",,,
+1240,"ScanCore",1,None,7
+1241,"2nd DB Preset",16,None,16
+1242,"SaveTabs on DB Presets",255,Button,1
+1243,"ButtonMask0",0,Bits,255
+1244,"ButtonMask1",0,Bits,255
+1245,"ButtonMask2",0,Bits,255
+1246,"ButtonMask3",0,Bits,255
+1247,"Enable Analog Inputs",0,Button,255
+1248,"Enable Analog Drawbars",0,Button,255
+1249,"(not used)",0,Button,255
+1249,"(not used)",0,Button,255
+1250,"(not used)",0,Button,255
+1251,"AuxPotRounting",0,Scroll,3
+1252,"AmpPotEna",0,Button,1
+1253,"EarlyKeyCont",0,Button,1
+1254,"PresetUpr",0,Scroll,15
+1255,"PresetLwr",0,Scroll,15
+#,"Busbar Mapping 0",,,
+1700,"Busbar 00 Offset",0,Scroll,60
+1701,"Busbar 01 Offset",19,Scroll,60
+1702,"Busbar 02 Offset",12,Scroll,60
+1703,"Busbar 03 Offset",24,Scroll,60
+1704,"Busbar 04 Offset",31,Scroll,60
+1705,"Busbar 05 Offset",36,Scroll,60
+1706,"Busbar 06 Offset",40,Scroll,60
+1707,"Busbar 07 Offset",43,Scroll,60
+1708,"Busbar 08 Offset",48,Scroll,60
+1709,"Busbar 09 Offset",46,Scroll,60
+1710,"Busbar 10 Offset",50,Scroll,60
+1711,"Busbar 11 Offset",51,Scroll,60
+1712,"Busbar 12 Offset",54,Scroll,60
+1713,"Busbar 13 Offset",55,Scroll,60
+1714,"Busbar 14 Offset",44,Scroll,72
+#,"Busbar Mapping 1",,,
+1716,"Busbar 00 Offset",0,Scroll,60
+1717,"Busbar 01 Offset",19,Scroll,60
+1718,"Busbar 02 Offset",12,Scroll,60
+1719,"Busbar 03 Offset",24,Scroll,60
+1720,"Busbar 04 Offset",31,Scroll,60
+1721,"Busbar 05 Offset",36,Scroll,60
+1722,"Busbar 06 Offset",40,Scroll,60
+1723,"Busbar 07 Offset",43,Scroll,60
+1724,"Busbar 08 Offset",48,Scroll,60
+1725,"Busbar 09 Offset",46,Scroll,60
+1726,"Busbar 10 Offset",50,Scroll,60
+1727,"Busbar 11 Offset",51,Scroll,60
+1728,"Busbar 12 Offset",55,Scroll,60
+1729,"Busbar 13 Offset",60,Scroll,60
+1730,"Busbar 14 Offset",67,Scroll,72
+#,"Busbar Mapping 2",,,
+1732,"Busbar 00 Offset",0,Scroll,60
+1733,"Busbar 01 Offset",19,Scroll,60
+1734,"Busbar 02 Offset",12,Scroll,60
+1735,"Busbar 03 Offset",24,Scroll,60
+1736,"Busbar 04 Offset",31,Scroll,60
+1737,"Busbar 05 Offset",36,Scroll,60
+1738,"Busbar 06 Offset",40,Scroll,60
+1739,"Busbar 07 Offset",43,Scroll,60
+1740,"Busbar 08 Offset",48,Scroll,60
+1741,"Busbar 09 Offset",46,Scroll,60
+1742,"Busbar 10 Offset",50,Scroll,60
+1743,"Busbar 11 Offset",51,Scroll,60
+1744,"Busbar 12 Offset",52,Scroll,60
+1745,"Busbar 13 Offset",55,Scroll,60
+1746,"Busbar 14 Offset",56,Scroll,72
+#,"Busbar Mapping 3",,,
+1748,"Busbar 00 Offset",0,Scroll,60
+1749,"Busbar 01 Offset",19,Scroll,60
+1750,"Busbar 02 Offset",12,Scroll,60
+1751,"Busbar 03 Offset",24,Scroll,60
+1752,"Busbar 04 Offset",31,Scroll,60
+1753,"Busbar 05 Offset",36,Scroll,60
+1754,"Busbar 06 Offset",40,Scroll,60
+1755,"Busbar 07 Offset",43,Scroll,60
+1756,"Busbar 08 Offset",48,Scroll,60
+1757,"Busbar 09 Offset",50,Scroll,60
+1758,"Busbar 10 Offset",51,Scroll,60
+1759,"Busbar 11 Offset",52,Scroll,60
+1760,"Busbar 12 Offset",54,Scroll,60
+1761,"Busbar 13 Offset",60,Scroll,60
+1762,"Busbar 14 Offset",67,Scroll,72
+#,"Drawbar 9 Mixture Set 0",,,
+1800,"Part of Busbar 9",255,Scroll,255
+1801,"Part of Busbar 10",255,Scroll,255
+1802,"Part of Busbar 11",0,Scroll,255
+1803,"Part of Busbar 12",0,Scroll,255
+1804,"Part of Busbar 13",0,Scroll,255
+1805,"Part of Busbar 14",0,Scroll,255
+#,"Drawbar 9 Mixture Set 1",,,
+1806,"Part of Busbar 9",255,Scroll,255
+1807,"Part of Busbar 10",255,Scroll,255
+1808,"Part of Busbar 11",0,Scroll,255
+1809,"Part of Busbar 12",0,Scroll,255
+1810,"Part of Busbar 13",0,Scroll,255
+1811,"Part of Busbar 14",0,Scroll,255
+#,"Drawbar 9 Mixture Set 2",,,
+1812,"Part of Busbar 9",0,Scroll,255
+1813,"Part of Busbar 10",0,Scroll,255
+1814,"Part of Busbar 11",0,Scroll,255
+1815,"Part of Busbar 12",255,Scroll,255
+1816,"Part of Busbar 13",0,Scroll,255
+1817,"Part of Busbar 14",0,Scroll,255
+#,"Drawbar 9 Mixture Set 3",,,
+1818,"Part of Busbar 9",255,Scroll,255
+1819,"Part of Busbar 10",255,Scroll,255
+1820,"Part of Busbar 11",0,Scroll,255
+1821,"Part of Busbar 12",0,Scroll,255
+1822,"Part of Busbar 13",0,Scroll,255
+1823,"Part of Busbar 14",0,Scroll,255
+#,"Drawbar 10 Mixture Set 0",,,
+1824,"Part of Busbar 9",0,Scroll,255
+1825,"Part of Busbar 10",0,Scroll,255
+1826,"Part of Busbar 11",255,Scroll,255
+1827,"Part of Busbar 12",255,Scroll,255
+1828,"Part of Busbar 13",0,Scroll,255
+1829,"Part of Busbar 14",0,Scroll,255
+#,"Drawbar 10 Mixture Set 1",,,
+1830,"Part of Busbar 9",0,Scroll,255
+1831,"Part of Busbar 10",0,Scroll,255
+1832,"Part of Busbar 11",255,Scroll,255
+1833,"Part of Busbar 12",0,Scroll,255
+1834,"Part of Busbar 13",0,Scroll,255
+1835,"Part of Busbar 14",0,Scroll,255
+#,"Drawbar 10 Mixture Set 2",,,
+1836,"Part of Busbar 9",0,Scroll,255
+1837,"Part of Busbar 10",0,Scroll,255
+1838,"Part of Busbar 11",0,Scroll,255
+1839,"Part of Busbar 12",0,Scroll,255
+1840,"Part of Busbar 13",255,Scroll,255
+1841,"Part of Busbar 14",0,Scroll,255
+#,"Drawbar 10 Mixture Set 3",,,
+1842,"Part of Busbar 9",0,Scroll,255
+1843,"Part of Busbar 10",0,Scroll,255
+1844,"Part of Busbar 11",0,Scroll,255
+1845,"Part of Busbar 12",255,Scroll,255
+1846,"Part of Busbar 13",255,Scroll,255
+1847,"Part of Busbar 14",0,Scroll,255
+#,"Drawbar 11 Mixture Set 0",,,
+1848,"Part of Busbar 9",0,Scroll,255
+1849,"Part of Busbar 10",0,Scroll,255
+1850,"Part of Busbar 11",0,Scroll,255
+1851,"Part of Busbar 12",0,Scroll,255
+1852,"Part of Busbar 13",0,Scroll,255
+1853,"Part of Busbar 14",255,Scroll,255
+#,"Drawbar 11 Mixture Set 1",,,
+1854,"Part of Busbar 9",0,Scroll,255
+1855,"Part of Busbar 10",0,Scroll,255
+1856,"Part of Busbar 11",0,Scroll,255
+1857,"Part of Busbar 12",255,Scroll,255
+1858,"Part of Busbar 13",150,Scroll,255
+1859,"Part of Busbar 14",100,Scroll,255
+#,"Drawbar 11 Mixture Set 2",,,
+1860,"Part of Busbar 9",0,Scroll,255
+1861,"Part of Busbar 10",0,Scroll,255
+1862,"Part of Busbar 11",0,Scroll,255
+1863,"Part of Busbar 12",0,Scroll,255
+1864,"Part of Busbar 13",0,Scroll,255
+1865,"Part of Busbar 14",0,Scroll,255
+#,"Drawbar 11 Mixture Set 3",,,
+1866,"Part of Busbar 9",0,Scroll,255
+1867,"Part of Busbar 10",0,Scroll,255
+1868,"Part of Busbar 11",0,Scroll,255
+1869,"Part of Busbar 12",0,Scroll,255
+1870,"Part of Busbar 13",255,Scroll,255
+1871,"Part of Busbar 14",150,Scroll,255
+#,"Organ Type Set 0",,,
+2000,"WaveSet Nr.",0,None,7
+2001,"Tapering / TG Cap Set ",1,None,7
+2002,"HighFoldback Boolean  ",255,Button,1
+2003,"FB 16' Mode   ",2,None,3
+2004,"TG Size   ",91,Scroll,96
+2005,"Flutter   ",7,None,15
+2006,"Leakage   ",2,None,7
+2007,"Busbar Set 0..3   ",0,None,3
+2008,"Mixture Set 0..3  ",0,None,3
+2009,"TG Tuning set ",0,None,5
+2010,"ADSR Mask Upper L   ",0,Bits,255
+2011,"ADSR Mask Upper H   ",0,Bits,255
+2012,"TG Level für Tapering  >3",50,Scroll,127
+#,"Organ Type Set 1",,,
+2016,"WaveSet Nr.",0,None,7
+2017,"Tapering / TG Cap Set",1,None,7
+2018,"HighFoldback Boolean  ",255,Button,1
+2019,"FB 16' Mode   ",1,None,3
+2020,"TG Size   ",96,Scroll,96
+2021,"Flutter   ",7,None,15
+2022,"Leakage   ",1,None,7
+2023,"Busbar Set 0..3   ",0,None,3
+2024,"Mixture Set 0..3  ",0,None,3
+2025,"TG Tuning set ",0,None,5
+2026,"ADSR Mask Upper L   ",0,Bits,255
+2027,"ADSR Mask Upper H   ",0,Bits,255
+2028,"TG Level für Tapering  >3",50,Scroll,127
+#,"Organ Type Set 2",,,
+2032,"WaveSet Nr.",0,None,7
+2033,"Tapering / TG Cap Set ",1,None,7
+2034,"HighFoldback Boolean  ",255,Button,1
+2035,"FB 16' Mode   ",1,None,3
+2036,"TG Size   ",96,Scroll,96
+2037,"Flutter   ",7,None,15
+2038,"Leakage   ",1,None,7
+2039,"Busbar Set 0..3   ",0,None,3
+2040,"Mixture Set 0..3  ",0,None,3
+2041,"TG Tuning set ",0,None,5
+2042,"ADSR Mask Upper L   ",0,Bits,255
+2043,"ADSR Mask Upper H   ",0,Bits,255
+2044,"TG Level für Tapering  >3",50,Scroll,127
+#,"Organ Type Set 3",,,
+2048,"WaveSet Nr.",0,None,7
+2049,"Tapering / TG Cap Set ",4,None,7
+2050,"HighFoldback Boolean  ",0,Button,1
+2051,"FB 16' Mode   ",3,None,3
+2052,"TG Size   ",91,Scroll,96
+2053,"Flutter   ",7,None,15
+2054,"Leakage   ",1,None,7
+2055,"Busbar Set 0..3   ",0,None,3
+2056,"Mixture Set 0..3  ",0,None,3
+2057,"TG Tuning set ",0,None,5
+2058,"ADSR Mask Upper L   ",0,Bits,255
+2059,"ADSR Mask Upper H   ",0,Bits,255
+2060,"TG Level für Tapering  >3",45,Scroll,127
+#,"Organ Type Set 4",,,
+2064,"WaveSet Nr.",3,None,7
+2065,"Tapering / TG Cap Set ",4,None,7
+2066,"HighFoldback Boolean  ",255,Button,1
+2067,"FB 16' Mode   ",1,None,3
+2068,"TG Size   ",91,Scroll,96
+2069,"Flutter   ",0,None,15
+2070,"Leakage   ",0,None,7
+2071,"Busbar Set 0..3   ",1,None,3
+2072,"Mixture Set 0..3  ",1,None,3
+2073,"TG Tuning set ",2,None,5
+2074,"ADSR Mask Upper L   ",0,Bits,255
+2075,"ADSR Mask Upper H   ",0,Bits,255
+2076,"TG Level für Tapering  >3",45,Scroll,127
+#,"Organ Type Set 5",,,
+2080,"WaveSet Nr.",3,None,7
+2081,"Tapering / TG Cap Set ",4,None,7
+2082,"HighFoldback Boolean  ",255,Button,1
+2083,"FB 16' Mode   ",1,None,3
+2084,"TG Size   ",96,Scroll,96
+2085,"Flutter   ",0,None,15
+2086,"Leakage   ",0,None,7
+2087,"Busbar Set 0..3   ",1,None,3
+2088,"Mixture Set 0..3  ",1,None,3
+2089,"TG Tuning set ",1,None,5
+2090,"ADSR Mask Upper L   ",0,Bits,255
+2091,"ADSR Mask Upper H   ",0,Bits,255
+2092,"TG Level für Tapering  >3",45,Scroll,127
+#,"Organ Type Set 6",,,
+2096,"WaveSet Nr.",4,None,7
+2097,"Tapering / TG Cap Set ",5,None,7
+2098,"HighFoldback Boolean  ",0,Button,1
+2099,"FB 16' Mode   ",1,None,3
+2100,"TG Size   ",84,Scroll,96
+2101,"Flutter   ",0,None,15
+2102,"Leakage   ",0,None,7
+2103,"Busbar Set 0..3   ",2,None,3
+2104,"Mixture Set 0..3  ",2,None,3
+2105,"TG Tuning set ",2,None,5
+2106,"ADSR Mask Upper L   ",0,Bits,255
+2107,"ADSR Mask Upper H   ",0,Bits,255
+2108,"TG Level für Tapering  >3",65,Scroll,127
+#,"Organ Type Set 7",,,
+2112,"WaveSet Nr.",7,None,7
+2113,"Tapering / TG Cap Set ",4,None,7
+2114,"HighFoldback Boolean  ",0,Button,1
+2115,"FB 16' Mode   ",1,None,3
+2116,"TG Size   ",91,Scroll,96
+2117,"Flutter   ",0,None,15
+2118,"Leakage   ",0,None,7
+2119,"Busbar Set 0..3   ",0,None,3
+2120,"Mixture Set 0..3  ",0,None,3
+2121,"TG Tuning set ",1,None,5
+2122,"ADSR Mask Upper L   ",0,Bits,255
+2123,"ADSR Mask Upper H   ",0,Bits,255
+2124,"TG Level für Tapering  >3",45,Scroll,127
