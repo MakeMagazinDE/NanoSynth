@@ -11,9 +11,9 @@ Maker Media GmbH und c't, Heise Zeitschriften Verlag
 
 ![Picture](https://github.com/heise/NanoSynth/blob/master/aufm_breit.JPG)
 
-Schier unglaublich, was hochintegrierte ICs heute können: Der SAM2695 von **[DREAM](http://www.dream.fr)** ist ein mehrstimmiger Wavetable-Synthesizer mit Effekteingang und MIDI-Steuerung auf 5 x 5 Quadratmillimetern. Unser NanoSynth-Board macht den Winzling Breadboard-tauglich.
+Schier unglaublich, was hochintegrierte ICs heute können: Der SAM2695 von **[DREAM](http://www.dream.fr)** ist ein mehrstimmiger Wavetable-Synthesizer mit Effekteingang und MIDI-Steuerung auf 5 x 5 Quadratmillimetern. Unser NanoSynth-Board (Artikel in Make 1/2018, S. 64) macht den Winzling Breadboard-tauglich.
 
-Der NanoSynth kann auf sehr einfache Weise über den Hardware-UART oder einen Software-UART (z.B. NewSoftSerial) vom Arduino gesteuert werden - einfach indem man einzelne Noten mit der Drei-Byte-Folge 0x90, *Note*, *Anschlagdynamik* ein- und mit 0x80, *Note*, 0x40 ausschaltet. Einen Ausführlichen Artikel zum MIDI-Protokoll finden Sie in der Make-Ausgabe 6/2017 auf Seite 106.
+Der NanoSynth kann auf sehr einfache Weise über den Hardware-UART oder einen Software-UART (z.B. NewSoftSerial) vom Arduino gesteuert werden - einfach indem man einzelne Noten mit der Drei-Byte-Folge *0x90*, *Note*, *Anschlagdynamik* ein- und mit *0x80, *Note*, *0x40* ausschaltet. Einen Ausführlichen Artikel zum MIDI-Protokoll finden Sie in der Make-Ausgabe 6/2017 auf Seite 106.
 
 ### MIDI-Player
 
@@ -23,7 +23,7 @@ Einen komplexeren Beispiel-Sketch (MIDI-File-Player) zum Betrieb am Arduino find
 
 Die ersten vier FluxamaSynth-Beispiele funktionieren dann über */Datei/Beispiele/Fluxama-Shields-Synthmaster*. Bitte beachten: Pin D4 ist MIDI-Tx, wie im Schaltbild in Ausgabe 1/2018 angegeben.
 
-Um eigene MIDI-Files in unser Beispiel einzubinden, ist eine zusätzliche Konvertierung notwendig. Kostenlose MIDI-Dateien gibt es zum Beispiel [bei MIDIworld](http://www.midiworld.com/files/). Die .MID-Dateien müssen mit einem Perl-Skript konvertiert werden, das es unter https://sourceforge.net/projects/midi2fluxama/ gibt. Zum Start benötigt Perl aber das MIDI-Modul
+Um eigene MIDI-Files in unser Beispiel einzubinden, ist eine zusätzliche Konvertierung notwendig. Kostenlose MIDI-Dateien gibt es zum Beispiel [bei MIDIworld](http://www.midiworld.com/files/). Die *.MID*-Dateien müssen mit einem Perl-Skript konvertiert werden, das es unter https://sourceforge.net/projects/midi2fluxama/ gibt. Zum Start benötigt Perl aber das MIDI-Modul
 *libmidi-perl*, das man unter Ubuntu mit *sudo apt-get insall libmidi-perl* nachinstalliert.
 
 Konvertiert wird dann mit *./midifluxama.pl beispiel.mid > data.h*, anschließend *data.h* über Reiter in der Arduino-IDE einfügen (neuen Reiter anlegen) und im Sketch *SoftFluxSynthSMF.pde* die Datei *data.h* inkludieren (#include data.h).
