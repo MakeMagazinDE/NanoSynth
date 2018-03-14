@@ -13,7 +13,7 @@ Maker Media GmbH und c't, Heise Zeitschriften Verlag
 
 Schier unglaublich, was hochintegrierte ICs heute können: Der SAM2695 von **[DREAM](http://www.dream.fr)** ist ein mehrstimmiger Wavetable-Synthesizer mit Effekteingang und MIDI-Steuerung auf 5 x 5 Quadratmillimetern. Unser NanoSynth-Board macht den Winzling Breadboard-tauglich.
 
-Der NanoSynth kann auf sehr einfache Weise über den Hardware-UART oder einen Software-UART (z.B. NewSoftSerial) vom Arduino gesteuert werden -- einfach indem man einzelne Noten mit der Drei-Byte-Folge 0x90, ''Note'', ''Anschlagdynamik'' ein- und mit 0x80, ''Note'', 0x40 ausschaltet. Einen Ausführlichen Artikel zum MIDI-Protokoll finden Sie in der Make-Ausgabe 6/2017 auf Seite 106.
+Der NanoSynth kann auf sehr einfache Weise über den Hardware-UART oder einen Software-UART (z.B. NewSoftSerial) vom Arduino gesteuert werden - einfach indem man einzelne Noten mit der Drei-Byte-Folge 0x90, ''Note'', ''Anschlagdynamik'' ein- und mit 0x80, ''Note'', 0x40 ausschaltet. Einen Ausführlichen Artikel zum MIDI-Protokoll finden Sie in der Make-Ausgabe 6/2017 auf Seite 106.
 
 ### MIDI-Player
 
