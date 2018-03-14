@@ -28,7 +28,7 @@ Um eigene MIDI-Files in unser Beispiel einzubinden, ist eine zusätzliche Konver
 
 Konvertiert wird dann mit *./midifluxama.pl beispiel.mid > data.h*, anschließend *data.h* über Reiter in der Arduino-IDE einfügen (neuen Reiter anlegen) und im Sketch *SoftFluxSynthSMF.pde* die Datei *data.h* inkludieren (#include data.h).
 
-### MIDI-Player
+### MIDI-CC-Editor
 
 Einen einfachen, aber sehr praktischen MIDI-Editor für Windows (andere Plattformen nach Neukompilierung der Delphi-Sourcen) finden Sie im Verzeichnis "GM-Editor" (ausführbare Datei in "Win32/Release"). Zum Einstellen des SAM2695 die vorbereitete CC-Tabelle *sam2695_ccvals.csv* laden. Mit Hilfe der Excel-Tabelle *GM-CCs.xlsx* können Sie CC-Tabellen für den Editor selbst erstellen. Ein preiswerter MIDI-USB-Adapter zum Betrieb am PC ist der [LOGILINK UA0037 von Reichelt](https://www.reichelt.de/USB-Konverter/LOGILINK-UA0037/3/index.html?ACTION=3&LA=446&ARTICLE=132373&GROUPID=6105&artnr=LOGILINK+UA0037).
 
